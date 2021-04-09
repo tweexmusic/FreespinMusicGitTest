@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C57D2177-0D8E-45E3-892B-31E04CB01CB3}" SchemaVersion="103">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{C57D2177-0D8E-45E3-892B-31E04CB01CB3}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Freespin Music" ID="{C69B1CB4-CB19-4424-A046-A811262C7D9F}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="freespin_intro_start" ID="{87AA2863-C580-4630-B86D-89466B4E9DA4}" WorkUnitID="{25F71D9B-B0E0-4FEA-B892-9DEB277D1B80}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="freespin_ringup_start" ID="{426FDD0A-4ACC-4241-8B85-4BDEE8021159}" WorkUnitID="{25F71D9B-B0E0-4FEA-B892-9DEB277D1B80}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="FS Intro" ID="{5C3F1962-B33D-47BD-8F11-2F983643D1BD}" WorkUnitID="{19D8D5BB-589E-4A74-AD11-2B0279A237C5}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="freespin_music_start" ID="{02149B3C-7362-4935-9A3F-F7E12539C113}" WorkUnitID="{25F71D9B-B0E0-4FEA-B892-9DEB277D1B80}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="freespin_ringup_stop" ID="{B29248CD-2EA8-4050-A904-66BF219F94B2}" WorkUnitID="{25F71D9B-B0E0-4FEA-B892-9DEB277D1B80}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="FS Music" ID="{425D6774-FD08-4E7D-B323-DD844D5056B2}" WorkUnitID="{19D8D5BB-589E-4A74-AD11-2B0279A237C5}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="freespin_end" ID="{027B2F6A-371F-48AB-93FB-384B9F5DC9AF}" WorkUnitID="{25F71D9B-B0E0-4FEA-B892-9DEB277D1B80}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="FSRingupVolume" ID="{A05D5966-0127-4AB1-B150-467B29651967}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="FreespinEnd" ID="{7BED50DA-6108-496A-90BF-C73C71EFF2E2}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

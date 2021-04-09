@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FB416DC6-FFBF-4AA7-80D9-A400BF530DC4}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{FB416DC6-FFBF-4AA7-80D9-A400BF530DC4}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="FreespinMusicStates" ID="{77E65473-D524-436D-9981-DE2796AE0406}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.75"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{8D6DD9D6-5500-4007-BBE8-DAACE11A9A97}"/>
+						<State Name="FreespinEnd" ID="{7BED50DA-6108-496A-90BF-C73C71EFF2E2}"/>
+						<State Name="FreespinStart" ID="{03BC9070-5F30-4751-9628-1C11BDA40B59}"/>
+						<State Name="FreespinIntro" ID="{AC3D02D3-F086-4A5D-91FD-66E595680E0C}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

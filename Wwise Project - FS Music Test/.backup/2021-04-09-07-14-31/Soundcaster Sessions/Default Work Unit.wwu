@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C57D2177-0D8E-45E3-892B-31E04CB01CB3}" SchemaVersion="94">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{C57D2177-0D8E-45E3-892B-31E04CB01CB3}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Freespin Music" ID="{C69B1CB4-CB19-4424-A046-A811262C7D9F}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="freespin_intro_start" ID="{87AA2863-C580-4630-B86D-89466B4E9DA4}" WorkUnitID="{25F71D9B-B0E0-4FEA-B892-9DEB277D1B80}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="freespin_ringup_start" ID="{426FDD0A-4ACC-4241-8B85-4BDEE8021159}" WorkUnitID="{25F71D9B-B0E0-4FEA-B892-9DEB277D1B80}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="freespin_music_start" ID="{02149B3C-7362-4935-9A3F-F7E12539C113}" WorkUnitID="{25F71D9B-B0E0-4FEA-B892-9DEB277D1B80}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="freespin_ringup_stop" ID="{B29248CD-2EA8-4050-A904-66BF219F94B2}" WorkUnitID="{25F71D9B-B0E0-4FEA-B892-9DEB277D1B80}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="freespin_end" ID="{027B2F6A-371F-48AB-93FB-384B9F5DC9AF}" WorkUnitID="{25F71D9B-B0E0-4FEA-B892-9DEB277D1B80}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="FreespinEnd" ID="{7BED50DA-6108-496A-90BF-C73C71EFF2E2}"/>
+						<CurrentStateRef Name="RingupStop" ID="{809F37D0-5C20-493B-9A11-8A26C77C1A17}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

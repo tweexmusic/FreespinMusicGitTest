@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>/Users/brianarnold/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Dropbox (Personal)/Brian/Production Files/Documents/Learning Wwise/FS Music Test/</ProjectRoot>
+		<SourceFilesRoot>/Users/brianarnold/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Dropbox (Personal)/Brian/Production Files/Documents/Learning Wwise/FS Music Test/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/brianarnold/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Dropbox (Personal)/Brian/Production Files/Documents/Learning Wwise/FS Music Test/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/brianarnold/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Dropbox (Personal)/Brian/Production Files/Documents/Learning Wwise/FS Music Test/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="4265959919">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX" Hash="2261038951">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4289952909" Name="freespin_end" ObjectPath="\Events\Default Work Unit\FreespinEvents\freespin_end" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="4013253266" Name="FreespinEnd" ObjectPath="\States\Default Work Unit\FreespinMusicStates\FreespinEnd"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="303060881" Name="freespin_intro_start" ObjectPath="\Events\Default Work Unit\FreespinEvents\freespin_intro_start" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="340583750" Language="SFX">
+							<ShortName>river_dragons_returns_freespin_music_145BPM.wav</ShortName>
+							<Path>SFX/river_dragons_returns_freespin_music_145BPM_D79FB2B7.wem</Path>
+						</File>
+						<File Id="500697736" Language="SFX">
+							<ShortName>river_dragons_returns_freespin_music_intro_135BPM.wav</ShortName>
+							<Path>SFX/river_dragons_returns_freespin_music_intro_135BPM_D79FB2B7.wem</Path>
+						</File>
+						<File Id="516766436" Language="SFX">
+							<ShortName>river_dragons_returns_freespin_ringup_145BPM.wav</ShortName>
+							<Path>SFX/river_dragons_returns_freespin_ringup_145BPM_D79FB2B7.wem</Path>
+						</File>
+						<File Id="696605833" Language="SFX">
+							<ShortName>river_dragons_returns_freespin_music_outro_145BPM.wav</ShortName>
+							<Path>SFX/river_dragons_returns_freespin_music_outro_145BPM_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{7BED50DA-6108-496A-90BF-C73C71EFF2E2}">
+							<Media>
+								<File Id="696605833"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{03BC9070-5F30-4751-9628-1C11BDA40B59}">
+							<Media>
+								<File Id="340583750"/>
+								<File Id="516766436"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{AC3D02D3-F086-4A5D-91FD-66E595680E0C}">
+							<Media>
+								<File Id="500697736"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1741593071" Name="FreespinIntro" ObjectPath="\States\Default Work Unit\FreespinMusicStates\FreespinIntro"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1472464510" Name="freespin_music_start" ObjectPath="\Events\Default Work Unit\FreespinEvents\freespin_music_start" DurationType="OneShot" DurationMin="4.029841" DurationMax="4.029841">
+					<IncludedMemoryFiles>
+						<File Id="142165402" Language="SFX">
+							<ShortName>freespin_start.wav</ShortName>
+							<Path>SFX/freespin_start_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="2712224113" Name="FreespinStart" ObjectPath="\States\Default Work Unit\FreespinMusicStates\FreespinStart"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2703870418" Name="freespin_ringup_start" ObjectPath="\Events\Default Work Unit\FreespinEvents\freespin_ringup_start" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4211426698" Name="freespin_ringup_stop" ObjectPath="\Events\Default Work Unit\FreespinEvents\freespin_ringup_stop" DurationType="OneShot" DurationMin="6.620703" DurationMax="6.620703">
+					<IncludedMemoryFiles>
+						<File Id="822728935" Language="SFX">
+							<ShortName>river_dragons_returns_freespin_ringup_climax_145BPM.wav</ShortName>
+							<Path>SFX/river_dragons_returns_freespin_ringup_climax_145BPM_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="2840406835" Name="FSRingupVolume" ObjectPath="\Game Parameters\Default Work Unit\FSRingupVolume"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="1205912814" Name="FreespinMusicStates" ObjectPath="\States\Default Work Unit\FreespinMusicStates">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\FreespinMusicStates\None"/>
+						<State Id="4013253266" Name="FreespinEnd" ObjectPath="\States\Default Work Unit\FreespinMusicStates\FreespinEnd"/>
+						<State Id="2712224113" Name="FreespinStart" ObjectPath="\States\Default Work Unit\FreespinMusicStates\FreespinStart"/>
+						<State Id="1741593071" Name="FreespinIntro" ObjectPath="\States\Default Work Unit\FreespinMusicStates\FreespinIntro"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1741593071" Name="FreespinIntro" ObjectPath="\States\Default Work Unit\FreespinMusicStates\FreespinIntro">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2712224113" Name="FreespinStart" ObjectPath="\States\Default Work Unit\FreespinMusicStates\FreespinStart">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="4013253266" Name="FreespinEnd" ObjectPath="\States\Default Work Unit\FreespinMusicStates\FreespinEnd">
+					<States/>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

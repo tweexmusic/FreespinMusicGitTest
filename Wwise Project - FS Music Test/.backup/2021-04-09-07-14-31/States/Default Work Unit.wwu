@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FB416DC6-FFBF-4AA7-80D9-A400BF530DC4}" SchemaVersion="94">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{FB416DC6-FFBF-4AA7-80D9-A400BF530DC4}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="FreespinStates" ID="{9ABFAD8D-E23E-4523-AA1E-CE4A1899A408}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{223B7A4B-4169-4D6B-8065-8E15281D1DA6}"/>
+						<State Name="RingupStart" ID="{206EB053-2ACE-49A9-A667-076928D037D5}"/>
+						<State Name="RingupStop" ID="{809F37D0-5C20-493B-9A11-8A26C77C1A17}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="RingupStart" ID="{206EB053-2ACE-49A9-A667-076928D037D5}"/>
+							<EndState Name="RingupStop" ID="{809F37D0-5C20-493B-9A11-8A26C77C1A17}"/>
+							<Time>0.25</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="FreespinEnd" ID="{77E65473-D524-436D-9981-DE2796AE0406}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.75"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{8D6DD9D6-5500-4007-BBE8-DAACE11A9A97}"/>
+						<State Name="FreespinEnd" ID="{7BED50DA-6108-496A-90BF-C73C71EFF2E2}"/>
+						<State Name="FreespinStart" ID="{03BC9070-5F30-4751-9628-1C11BDA40B59}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

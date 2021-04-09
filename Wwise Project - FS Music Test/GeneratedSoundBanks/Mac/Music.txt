@@ -1,0 +1,30 @@
+Event	ID	Name			Wwise Object Path	Notes
+	303060881	freespin_intro_start			\Default Work Unit\FreespinEvents\freespin_intro_start	
+	1472464510	freespin_music_start			\Default Work Unit\FreespinEvents\freespin_music_start	
+	2703870418	freespin_ringup_start			\Default Work Unit\FreespinEvents\freespin_ringup_start	
+	4211426698	freespin_ringup_stop			\Default Work Unit\FreespinEvents\freespin_ringup_stop	
+	4289952909	freespin_end			\Default Work Unit\FreespinEvents\freespin_end	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1205912814	FreespinMusicStates			\Default Work Unit\FreespinMusicStates	
+
+State	ID	Name	State Group			Notes
+	748895195	None	FreespinMusicStates			
+	1741593071	FreespinIntro	FreespinMusicStates			
+	2712224113	FreespinStart	FreespinMusicStates			
+	4013253266	FreespinEnd	FreespinMusicStates			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	342877924	FreespinEnd	FreespinMusicStates	\Interactive Music Hierarchy\Default Work Unit\FS Music\FS Music Switch\FS Music		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2840406835	FSRingupVolume			\Default Work Unit\FSRingupVolume	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	142165402	StartButton	Y:\Dropbox (Personal)\Brian\Production Files\Documents\Learning Wwise\FS Music Test\.cache\Mac\SFX\freespin_start_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\StartButton		710928
+	340583750	river_dragons_returns_freespin_music_145BPM	Y:\Dropbox (Personal)\Brian\Production Files\Documents\Learning Wwise\FS Music Test\.cache\Mac\SFX\river_dragons_returns_freespin_music_145BPM_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\FS Music\FS Music Switch\FS Music\FS Music\river_dragons_returns_freespin_music_145BPM		11679040
+	500697736	river_dragons_returns_freespin_music_intro_135BPM	Y:\Dropbox (Personal)\Brian\Production Files\Documents\Learning Wwise\FS Music Test\.cache\Mac\SFX\river_dragons_returns_freespin_music_intro_135BPM_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\FS Music\FS Music Switch\FS Intro\FS Intro Intro\river_dragons_returns_freespin_music_intro_135BPM		7526544
+	516766436	river_dragons_returns_freespin_ringup_145BPM_01	Y:\Dropbox (Personal)\Brian\Production Files\Documents\Learning Wwise\FS Music Test\.cache\Mac\SFX\river_dragons_returns_freespin_ringup_145BPM_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\FS Music\FS Music Switch\FS Music\FS Music\river_dragons_returns_freespin_ringup_145BPM_01		11387068
+	696605833	river_dragons_returns_freespin_music_outro_145BPM	Y:\Dropbox (Personal)\Brian\Production Files\Documents\Learning Wwise\FS Music Test\.cache\Mac\SFX\river_dragons_returns_freespin_music_outro_145BPM_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\FS Music\FS Music Switch\FS Outro\river_dragons_returns_freespin_music_outro_145BPM		1460004
+	822728935	river_dragons_returns_freespin_ringup_climax_145BPM	Y:\Dropbox (Personal)\Brian\Production Files\Documents\Learning Wwise\FS Music Test\.cache\Mac\SFX\river_dragons_returns_freespin_ringup_climax_145BPM_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\FS Music\FS Ringup Climax\river_dragons_returns_freespin_ringup_climax_145BPM		1168036
+

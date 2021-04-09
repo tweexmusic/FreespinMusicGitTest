@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{25F71D9B-B0E0-4FEA-B892-9DEB277D1B80}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{25F71D9B-B0E0-4FEA-B892-9DEB277D1B80}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="FreespinEvents" ID="{62467B46-680A-4228-95D2-445C48F69FB4}" ShortID="48176803">
+					<ChildrenList>
+						<Event Name="freespin_end" ID="{027B2F6A-371F-48AB-93FB-384B9F5DC9AF}">
+							<ChildrenList>
+								<Action Name="" ID="{F0443625-D57C-4B79-86B0-62F9D72D4772}" ShortID="892813584">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FS_Outro_Trigger" ID="{B56DF978-5FE3-48CF-94F4-AF74EBC0F798}" WorkUnitID="{5A554D82-13A7-4970-8C44-C42A6E5A565D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E8C84790-8DD0-4F6E-BDED-15C99FF6D2F7}" ShortID="960361244">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+										<Property Name="Delay" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{440BC4E8-9A1D-4E24-ADC7-E21931B23A3B}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FreespinEnd" ID="{7BED50DA-6108-496A-90BF-C73C71EFF2E2}" WorkUnitID="{FB416DC6-FFBF-4AA7-80D9-A400BF530DC4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F96B798F-2633-42D4-BAE5-1BBCFC7A0006}" ShortID="786128523">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FS Ringup" ID="{B66BA130-3193-4625-B786-785478895F1E}" WorkUnitID="{19D8D5BB-589E-4A74-AD11-2B0279A237C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8B8A2D4A-F8D5-4B73-9BEA-4B2981BEC099}" ShortID="271402871">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Delay" Type="Real64" Value="8"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="0"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FS Music" ID="{425D6774-FD08-4E7D-B323-DD844D5056B2}" WorkUnitID="{19D8D5BB-589E-4A74-AD11-2B0279A237C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="freespin_intro_start" ID="{87AA2863-C580-4630-B86D-89466B4E9DA4}">
+							<ChildrenList>
+								<Action Name="" ID="{58669469-A98A-404B-9D2F-6638F9A79BCD}" ShortID="127200176">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FS Intro" ID="{5C3F1962-B33D-47BD-8F11-2F983643D1BD}" WorkUnitID="{19D8D5BB-589E-4A74-AD11-2B0279A237C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{CCD6E7A4-0C69-494B-9C69-893A298D8CB6}" ShortID="853063903">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FreespinStart" ID="{03BC9070-5F30-4751-9628-1C11BDA40B59}" WorkUnitID="{FB416DC6-FFBF-4AA7-80D9-A400BF530DC4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="freespin_music_start" ID="{02149B3C-7362-4935-9A3F-F7E12539C113}">
+							<ChildrenList>
+								<Action Name="" ID="{2CF7C308-57D3-4EE4-9FF7-B0FBA2392CFB}" ShortID="1055995759">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.75"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FS Intro" ID="{5C3F1962-B33D-47BD-8F11-2F983643D1BD}" WorkUnitID="{19D8D5BB-589E-4A74-AD11-2B0279A237C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D01D0A5D-FFC6-4FCF-8341-E3ED1DB26463}" ShortID="964600611">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="StartButton" ID="{A22F0348-1DB8-4E58-878B-632E71801ED4}" WorkUnitID="{D1673CE4-324D-4189-B0BD-DA8004778367}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3FA5308A-6E4F-4030-B1A0-5DE8F5D5F02B}" ShortID="510695397">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RingupStop" ID="{809F37D0-5C20-493B-9A11-8A26C77C1A17}" WorkUnitID="{FB416DC6-FFBF-4AA7-80D9-A400BF530DC4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{57D2E37D-2A18-40BE-A55A-25DDC1B5D6AF}" ShortID="1055104340">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FS Music" ID="{425D6774-FD08-4E7D-B323-DD844D5056B2}" WorkUnitID="{19D8D5BB-589E-4A74-AD11-2B0279A237C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{EAC6EC8B-3FA5-41D7-B55A-EE54074A63E1}" ShortID="290169360">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FS Ringup" ID="{B66BA130-3193-4625-B786-785478895F1E}" WorkUnitID="{19D8D5BB-589E-4A74-AD11-2B0279A237C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="freespin_ringup_start" ID="{426FDD0A-4ACC-4241-8B85-4BDEE8021159}">
+							<ChildrenList>
+								<Action Name="" ID="{FA19CD87-32DC-466B-A476-333FB7899DFC}" ShortID="665910943">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RingupStart" ID="{206EB053-2ACE-49A9-A667-076928D037D5}" WorkUnitID="{FB416DC6-FFBF-4AA7-80D9-A400BF530DC4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="freespin_ringup_stop" ID="{B29248CD-2EA8-4050-A904-66BF219F94B2}">
+							<ChildrenList>
+								<Action Name="" ID="{D2747B3F-7A5F-43CB-B594-E9BA275E5759}" ShortID="96666660">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FS Ringup Climax" ID="{8208F65C-0DC9-461D-A352-77073C9EC558}" WorkUnitID="{19D8D5BB-589E-4A74-AD11-2B0279A237C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DA133DA5-CF9E-4D9A-97EE-D57328B85DC5}" ShortID="28855151">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RingupStop" ID="{809F37D0-5C20-493B-9A11-8A26C77C1A17}" WorkUnitID="{FB416DC6-FFBF-4AA7-80D9-A400BF530DC4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
